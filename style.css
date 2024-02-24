@@ -10,13 +10,27 @@ body, html, section, main {
     scroll-behavior: smooth;
 }
 section {    
-    margin-left: 350px;
+    margin-left: 300px;
     padding-top: 75px;
     
 }
-section h1, section h2 {
+section h1 {
     color: white;
     font-size: 3em;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+section h2 {
+    color: white;
+    font-size: 1.5em;
+
+}
+section h3, p {
+    margin-top: 40px;
+    color: white;
+    line-height: 1.5;    
+    text-align: center;  
 
 }
 
@@ -57,3 +71,4 @@ section h1, section h2 {
     font-size: 20px;
 
 }
+/**/
