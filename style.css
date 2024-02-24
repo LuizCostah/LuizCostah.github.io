@@ -3,10 +3,21 @@
     font-family: sans-serif;
     
 }
-body, html {
+body, html, section, main {
+    
     height: 100%;
     background-color: black;   
     scroll-behavior: smooth;
+}
+section {    
+    margin-left: 350px;
+    padding-top: 75px;
+    
+}
+section h1, section h2 {
+    color: white;
+    font-size: 3em;
+
 }
 
 .aside-wrap {
@@ -45,12 +56,4 @@ body, html {
     color: #00d2d3;
     font-size: 20px;
 
-}
-section {
-    min-height: 100vh;
-    
-}
-#Habilidades {
-    background-color: gray;
-    
 }
