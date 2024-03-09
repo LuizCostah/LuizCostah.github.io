@@ -3,6 +3,7 @@
     font-family: sans-serif;
     
 }
+
 body, html, section, main {
     
     height: 100%;
@@ -34,17 +35,19 @@ section h3, p {
 
 }
 
-.social-links {
-    background-color: white;
+.social-links {   
     font-weight: 800;
-    font-size: 20px;
-    display: block;
+    font-size: 40px;
+    display: inline-block;
     text-align: center;
-    justify-content: space-between;
-    
     padding: 15px;
-    margin: 10px;
+    margin-top: 50px;
+    margin-left: 170px;
     
+}
+    
+.social-links a {
+    color: white;
 }
 .aside-wrap {
     position: fixed;
