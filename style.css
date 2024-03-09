@@ -33,8 +33,18 @@ section h3, p {
     text-align: center;  
 
 }
-section .home li {
-    background: white;
+
+.social-links {
+    background-color: white;
+    font-weight: 800;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+    
+    padding: 15px;
+    margin: 10px;
+    
 }
 .aside-wrap {
     position: fixed;
@@ -65,12 +75,13 @@ section .home li {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
 } 
 .aside-wrap .menu-link:hover {      
     border-bottom: 3px solid white;    
     color: #00d2d3;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 15px;
 
 }
 /**/
