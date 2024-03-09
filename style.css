@@ -33,7 +33,9 @@ section h3, p {
     text-align: center;  
 
 }
-
+section .home li {
+    background: white;
+}
 .aside-wrap {
     position: fixed;
     background-image: linear-gradient(to bottom right, lightseagreen, black);
